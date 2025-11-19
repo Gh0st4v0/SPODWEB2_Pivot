@@ -63,6 +63,7 @@ export default function Consultas() {
             </tbody>
           </table>
         </div>
+        
       </main>
       <Footer></Footer>
     </div>

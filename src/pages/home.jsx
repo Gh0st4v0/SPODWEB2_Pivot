@@ -1,5 +1,7 @@
 import React, { useState, Fragment } from "react";
 
+import Header from "../components/Header/header";
+import Footer from "../components/Footer/footer";
 import medicosJson from "../data/medicos.json";
 import pacientesJson from "../data/pacientes.json";
 import consultasJson from "../data/consultas.json";
@@ -15,6 +17,7 @@ const Home = () => {
 
   return (
     <Fragment>
+      <Header/>
       <h2>✨ Visão Geral do Sistema</h2>
 
       <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
@@ -29,7 +32,7 @@ const Home = () => {
           Consultas Agendadas: <strong>{consultasAgendadas}</strong>
         </p>
       </div>
-
+      <Footer/>
     </Fragment>
   );
 };

@@ -7,7 +7,7 @@ import axios from "axios"
 
 export default function Administrador(){
 
-    const [ listaConsultas, setListaConsultas ] = useState( [] )
+    const [listaConsultas, setListaConsultas ] = useState( [] )
     const [listaMedicos, setListaMedicos] = useState([])
     const [listaPacientes, setListaPacientes] = useState([])
     const [idMedico, setIdMedico] = useState(0)
